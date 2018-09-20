@@ -1,0 +1,90 @@
+
+/* Inicio del reset CSS*/
+html,body,h1,h2,h3,h4,h5,h6,p,div,ol,ul,li,pre,code,address,form,fieldset{
+  padding: 0;
+  margin: 0;
+  font-size: 100;
+  font-weight: normal;
+}
+
+ol{
+  margin-left: 1.4em;
+  list-style: decimal;
+}
+
+ul{
+  margin-left: 1.4em;
+  list-style: square;
+}
+
+image{
+  border: 0;
+}
+
+/* Final del reset CSS */
+
+#principal{
+  float: left;
+  width: 580px; /*No ocupe el 100% de la pantalla*/
+}
+
+ #lateral{
+   margin-left: 600px;
+   padding: 15px;
+   background-color: #e1cfff;
+
+ }
+
+body{
+  background: url(images/fondo_cuerpo.png) repeat-x;
+  background-color: #e1cfff;
+  color: #b1967c;
+  font-family: "Palatino Linotype";
+  padding-top: 100px;
+
+  width: 800px;
+  margin: 0 auto;
+}
+
+h1{
+  font-size: 3em;
+  font-family: "Arial ";
+  margin-left: 80px;
+}
+
+h2{
+  font-size: 2.2em;
+  color: rgb(156, 0, 135);
+  margin-bottom: 5px;
+  margin-left: 80px;
+}
+
+#principal h2{
+  color: #ff8a00;
+  border-bottom: solid 2px #ffffff;
+  background: url(images/flor.png) no-repeat;
+  padding: 0 0 2px 80px; /*arriba, derecha, abajo ,izquierda las manecllas del reloj*/
+}
+
+#principal h2:hover{
+  color: #e40909;
+}
+
+#principal p{
+  padding: 0 0 0 90px;
+  color: #616161;
+  font-family: "Paladino Linotype";
+  font-size: 1.1em;
+  line-height:150%;
+  margin-bottom: 15px;
+  margin-left: 80px;
+}
+
+#principal .introduccion{
+  color: #000000;
+  font-size: 1.2em;
+  font-family: Arial;
+  margin-left: 0px;
+  margin-bottom: 25px;
+
+}
